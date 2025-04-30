@@ -5,7 +5,7 @@ import { sessionsRoutes } from "./sessions-routes"
 import { refundsRoutes } from "./refunds-routes"
 import { uploadsRoutes } from "./uploads-routes"
 
-import { ensureAuthenticated } from "@/middlewares/ensure-authenticated"
+import { ensureAuthenticated } from "../middlewares/ensure-authenticated"
 
 const routes = Router()
 

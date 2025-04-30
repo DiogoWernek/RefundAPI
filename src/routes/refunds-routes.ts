@@ -1,11 +1,11 @@
 import { Router } from "express"
 
-import { RefundsController } from "@/controllers/refunds-controller"
+import { RefundsController } from "../controllers/refunds-controller"
 
 const refundsRoutes = Router()
 const refundsController = new RefundsController()
 
-import { verifyUserAuthorization } from "@/middlewares/verify-user-Authorization"
+import { verifyUserAuthorization } from "../middlewares/verify-user-Authorization"
 
 refundsRoutes.post(
   "/",

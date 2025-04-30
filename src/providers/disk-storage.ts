@@ -1,7 +1,7 @@
 import fs from "node:fs"
 import path from "node:path"
 
-import uploadConfig from "@/configs/upload"
+import uploadConfig from "../configs/upload"
 
 export class DiskStorage {
   async saveFile(file: string) {

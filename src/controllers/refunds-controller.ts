@@ -1,6 +1,6 @@
-import { AppError } from "@/utils/AppError"
+import { AppError } from "../utils/AppError"
 import { Request, Response } from "express"
-import { prisma } from "@/database/prisma"
+import { prisma } from "../database/prisma"
 import { z } from "zod"
 
 const CategoriesEnum = z.enum([

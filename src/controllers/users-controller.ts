@@ -1,6 +1,6 @@
-import { AppError } from "@/utils/AppError"
+import { AppError } from "../utils/AppError"
 import { Request, Response } from "express"
-import { prisma } from "@/database/prisma"
+import { prisma } from "../database/prisma"
 import { UserRole } from "@prisma/client"
 import { hash } from "bcrypt"
 import { z } from "zod"

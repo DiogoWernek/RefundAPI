@@ -1,17 +1,16 @@
 {
   "compilerOptions": {
-    "target": "ES2022",
-    "lib": ["ES2023"],
-
-    "paths": {
-      "@/*": ["./src/*"]
-    },
-
-    "module": "Node16",
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-
+    "target": "es2017",
+    "module": "commonjs",
+    "outDir": "dist",
+    "rootDir": "src",
     "strict": true,
-    "skipLibCheck": true
-  }
+    "esModuleInterop": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["*"]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
 }
